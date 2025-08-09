@@ -1,107 +1,86 @@
-# Abstacle-avoiding-robot
-
-
-```markdown
 # Obstacle Avoiding Robot
 
 ## 📌 Overview
-This project implements an **autonomous obstacle-avoiding robot** using:
-- **Arduino Uno**
-- **Ultrasonic sensor** for distance measurement
-- **Servo motor** for sensor rotation
-- **DC motors** for movement
-- **Motor driver (L298N)** for motor control
+An **autonomous obstacle-avoiding robot** built using:
+- Arduino Uno
+- Ultrasonic sensor for distance detection
+- Servo motor for sensor rotation
+- DC motors for movement
+- L298N motor driver for control
 
-The robot detects obstacles in its path and changes direction accordingly.
+The robot scans for obstacles and navigates around them without manual control.
 
 ---
 
-## ⚙️ Components Used
+## ⚙️ Components
 - Arduino Uno
-- Ultrasonic Sensor (HC-SR04)
-- Servo Motor (SG90)
+- HC-SR04 Ultrasonic Sensor
+- SG90 Servo Motor
 - L298N Motor Driver
-- 2 × DC Motors
-- Wheels & Chassis
-- Battery Pack (9V or Li-ion)
+- 2 × DC Motors with Wheels
+- Chassis
+- Battery Pack
 - Jumper Wires
 
 ---
 
 ## 🛠️ Working Principle
-1. The ultrasonic sensor, mounted on a servo motor, scans the surroundings.
-2. Distance to obstacles is calculated.
-3. If an obstacle is detected within a set range, the robot stops and turns.
-4. Based on readings, the robot chooses the path with more free space.
+1. Ultrasonic sensor mounted on servo scans left, front, and right.
+2. Measures distances to detect obstacles.
+3. If an obstacle is detected within threshold distance, stops and turns.
+4. Chooses direction with maximum free space.
 
 ---
 
 ## 📂 Repository Structure
 ```
 Obstacle-Avoiding-Robot/
-│
 ├── code/
-│   └── obstacle_avoiding_robot.ino   # Arduino code
-│
+│   └── obstacle_avoiding_robot.ino
 ├── images/
-│   └── robot_setup.jpg              # Pictures of the robot
-│
-├── README.md                         # Project documentation
-└── circuit_diagram.png               # Circuit wiring diagram
+│   └── robot_setup.jpg
+├── circuit_diagram.png
+└── README.md
 ```
 
 ---
 
 ## 💻 Code Description
-The Arduino sketch:
-- Initializes ultrasonic sensor and servo.
-- Continuously measures distances.
-- Controls motor direction via L298N driver.
-- Implements decision logic for movement.
+- Initializes ultrasonic sensor and servo motor.
+- Continuously measures distance.
+- Motor driver controls forward, left, and right motion.
+- Decision logic avoids collisions.
 
 ---
 
 ## 🚀 How to Run
-1. Clone this repository:
+1. Clone repository:
    ```bash
    git clone https://github.com/<your-username>/Obstacle-Avoiding-Robot.git
    ```
-2. Open `obstacle_avoiding_robot.ino` in Arduino IDE.
-3. Upload the code to Arduino Uno.
-4. Connect all components as per `circuit_diagram.png`.
-5. Power up and watch the robot navigate!
+2. Open `.ino` file in Arduino IDE.
+3. Connect circuit as per diagram.
+4. Upload code and power the robot.
 
 ---
 
 ## 📷 Demo
-*(Insert images and videos here)*
+*(Add images or videos here)*
 
 ---
 
 ## 🛠️ Tools Used
 - Arduino IDE
 - Embedded C/C++
-- Ultrasonic Sensor
-- Servo Motor & DC Motors
 
 ---
 
 ## ✨ Future Improvements
-- Add IR sensors for edge detection.
-- Implement speed control using PWM.
-- Add Bluetooth module for manual override.
+- Add IR sensors for edge detection
+- Implement speed control via PWM
+- Add Bluetooth manual control
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License.
-```
-
-For GitHub, you should keep:
-- `README.md` (above content)
-- `code/` folder with `.ino` file
-- `images/` folder with photos
-- Circuit diagram image
-- License file
-
-I can also prepare the **Arduino `.ino` code** structure if you haven’t finalized it yet.
+MIT License
