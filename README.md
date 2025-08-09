@@ -45,6 +45,7 @@ Obstacle-Avoiding-Robot/
 │   └── demo.gif
 └── README.md
 ```
+![WhatsApp Image 2025-08-07 at 17 25 19_59e9491f](https://github.com/user-attachments/assets/37429042-769a-4795-98ab-8c97500d4acf)
 
 ---
 
