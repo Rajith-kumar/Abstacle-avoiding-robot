@@ -1,3 +1,4 @@
+```markdown
 # Obstacle Avoiding Robot
 
 ## 📌 Overview
@@ -38,8 +39,9 @@ Obstacle-Avoiding-Robot/
 ├── code/
 │   └── obstacle_avoiding_robot.ino
 ├── images/
-│   └── robot_setup.jpg
-├── circuit_diagram.png
+│   ├── robot_setup.jpg
+│   ├── circuit_diagram.png
+│   └── demo.gif
 └── README.md
 ```
 
@@ -65,7 +67,9 @@ Obstacle-Avoiding-Robot/
 ---
 
 ## 📷 Demo
-*(Add images or videos here)*
+![Robot Setup](images/robot_setup.jpg)
+![Circuit Diagram](images/circuit_diagram.png)
+![Working Demo](images/demo.gif)
 
 ---
 
@@ -84,3 +88,4 @@ Obstacle-Avoiding-Robot/
 
 ## 📜 License
 MIT License
+```
