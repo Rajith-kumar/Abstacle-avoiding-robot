@@ -30,7 +30,20 @@ The robot detects obstacles and navigates around them without manual input.
 3. If an obstacle is within a set threshold, the robot stops and changes direction.
 4. Selects the path with the most clearance.
 
+
 ---
+
+## 📷 Images
+You can add images in Markdown like this:
+```markdown
+![Robot Setup](images/robot_setup.jpg)
+![Circuit Diagram](images/circuit_diagram.png)
+![Demo](images/demo.gif)
+```
+Make sure to place your images inside the `images/` folder in your repo.
+
+---
+
 
 ## 📂 Repository Structure
 ```
