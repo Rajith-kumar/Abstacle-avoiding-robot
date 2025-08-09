@@ -28,7 +28,8 @@ The robot detects obstacles and navigates around them without manual input.
 
 ![WhatsApp Image 2025-08-07 at 17 25 22_535aa755](https://github.com/user-attachments/assets/51fd058d-4200-49cb-acc3-247060f4bcbb)
 
-![Uploading WhatsApp Image 2025-08-07 at 17.25.29_1de5f041.jpg…]()
+![WhatsApp Image 2025-08-07 at 17 25 29_1de5f041](https://github.com/user-attachments/assets/9642b21f-bfd3-4e5d-aacf-a95fe347691a)
+
 
 
 ---
