@@ -23,7 +23,16 @@ The robot detects obstacles and navigates around them without manual input.
 - Jumper Wires
 - Bread Board
 
+
 ---
+## 🛠️ Circuit Diagram
+![WhatsApp Image 2025-08-09 at 15 49 08_b54f61cd](https://github.com/user-attachments/assets/2865a47f-10a6-432a-95d4-8ed1a3c48018)
+
+
+---
+---
+
+## ⚙️ Images
 ![WhatsApp Image 2025-08-07 at 17 25 19_e662fa38](https://github.com/user-attachments/assets/820e619e-2573-4c55-9afd-473a6691de0f)
 
 ![WhatsApp Image 2025-08-07 at 17 25 22_535aa755](https://github.com/user-attachments/assets/51fd058d-4200-49cb-acc3-247060f4bcbb)
