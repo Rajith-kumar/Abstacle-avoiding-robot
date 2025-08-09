@@ -33,17 +33,6 @@ The robot detects obstacles and navigates around them without manual input.
 
 ---
 
-## 📷 Images
-You can add images in Markdown like this:
-```markdown
-![Robot Setup](images/robot_setup.jpg)
-![Circuit Diagram](images/circuit_diagram.png)
-![Demo](images/demo.gif)
-```
-Make sure to place your images inside the `images/` folder in your repo.
-
----
-
 
 ## 📂 Repository Structure
 ```
