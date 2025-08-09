@@ -30,6 +30,28 @@ The robot detects obstacles and navigates around them without manual input.
 
 
 ---
+
+## 🛠️ Working Process
+1. **Power On** – When switched on, the Arduino initializes the servo to its center position.
+2. **Initial Scan** – The ultrasonic sensor, mounted on the servo, checks the distance directly ahead.
+3. **Decision Making** – If the distance is greater than the threshold, motors run forward.
+4. **Obstacle Detection** – When an obstacle is detected within the threshold distance:
+   - The motors stop.
+   - The servo rotates left and right to scan for available paths.
+   - The Arduino compares left and right distances.
+5. **Path Selection** – The robot turns towards the direction with the most clearance.
+6. **Repeat Cycle** – The process repeats continuously to avoid collisions.
+
+---
+
+## ⚠️ Precautions & Safety Notes
+- Avoid using the robot on wet or uneven surfaces.
+- Ensure all connections are secure before powering on.
+- Do not power the Arduino and motors from the same USB port.
+- Keep battery terminals insulated to prevent short circuits.
+- Avoid running the motors for long periods without cooling.
+
+---
 ---
 
 ## ⚙️ Images
