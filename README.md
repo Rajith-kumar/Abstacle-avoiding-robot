@@ -62,13 +62,10 @@ The robot detects obstacles and navigates around them without manual input.
 ---
 
 ## 🚀 How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/<your-username>/Obstacle-Avoiding-Robot.git
-```
-2. Open `.ino` file in Arduino IDE.
-3. Connect the components as shown in the circuit diagram.
-4. Upload the code and power the robot.
+
+1. Open `.ino` file in Arduino IDE.
+2. Connect the components as shown in the circuit diagram.
+3. Upload the code and power the robot.
 
 ---
 
