@@ -34,20 +34,6 @@ The robot detects obstacles and navigates around them without manual input.
 ---
 
 
-## 📂 Repository Structure
-```
-Obstacle-Avoiding-Robot/
-├── code/
-│   └── obstacle_avoiding_robot.ino
-├── images/
-│   ├── robot_setup.jpg
-│   ├── circuit_diagram.png
-│   └── demo.gif
-└── README.md
-```
-![WhatsApp Image 2025-08-07 at 17 25 19_59e9491f](https://github.com/user-attachments/assets/37429042-769a-4795-98ab-8c97500d4acf)
-
----
 
 ## 💻 Code Description
 - Initializes the ultrasonic sensor and servo motor.
